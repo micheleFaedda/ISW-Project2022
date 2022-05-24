@@ -4,9 +4,10 @@ import time
 class TextAnalyzer():
 
     def __init__(self, text_file_name, stopword_file_name):
-        self.text = TextAnalyzer._list_of_words_from_file(self, text)
-        self.stopwords = list(set(TextAnalyzer._list_of_words_from_file(self, stopwords)))
+        self.text = TextAnalyzer._list_of_words_from_file(self, text_file_name)
+        self.stopwords = list(set(TextAnalyzer._list_of_words_from_file(self, stopword_file_name)))
         self.punctuation = string.punctuation
+
     def save_frequency_into_file(self,output_file_name):
         frequency_dictionary = TextAnalyzer.text_fequency(self)
         with open(output_file_name, 'w') as output_file:

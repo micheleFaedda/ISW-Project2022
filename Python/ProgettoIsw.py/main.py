@@ -4,9 +4,11 @@ import time
 class TextAnalyzer():
 
     def __init__(self, text_file_name, stopword_file_name):
+        self.punctuation = {char: ' ' for char in list(string.punctuation)}
         self.text = TextAnalyzer._list_of_words_from_file(self, text_file_name)
         self.stopwords = list(set(TextAnalyzer._list_of_words_from_file(self, stopword_file_name)))
-        self.punctuation = string.punctuation
+
+
 
     def save_frequency_into_file(self,output_file_name):
         frequency_dictionary = TextAnalyzer.text_fequency(self)
@@ -26,22 +28,21 @@ class TextAnalyzer():
 
 
     def prepare_text_for_analysis_from_file(self):
+        #TextAnalyzer._remove_punctuation(self)
         TextAnalyzer._remove_stopwords(self)
-        TextAnalyzer._remove_punctuation(self)
 
     def _remove_stopwords(self):
-        self.text = [word for word in self.text if word not in self.stopwords]
+        self.text = list(filter(None ,[  word for word in self.text if word not in self.stopwords]))
 
-    def _remove_punctuation(self):
-        list_of_words_without_punctuation =[word.translate(str.maketrans('', '', self.punctuation)) for word in self.text]
-        self.text = list(filter(None, list_of_words_without_punctuation))
-
+    def _remove_punctuation_from_line(self ,line):
+        return line.translate(str.maketrans( self.punctuation))
 
     def _list_of_words_from_file(self, file_name):
         list_of_stopwords = []
         with open(file_name) as file:
             for line in file:
-                list_of_stopwords.extend(line.strip().lower().split(' '))
+                line_without_puntactions = TextAnalyzer._remove_punctuation_from_line(self,line)
+                list_of_stopwords.extend(line_without_puntactions.strip().lower().split(' '))
         return list_of_stopwords
 
 if __name__ == '__main__':
@@ -54,3 +55,4 @@ if __name__ == '__main__':
     print(text_analizer.text_fequency())
     #print(time.time()-start)
     text_analizer.save_frequency_into_file('output.txt')
+    print(string.punctuation)

@@ -7,7 +7,7 @@ class TextAnalyzer():
         self.punctuation = {char: ' ' for char in list(string.punctuation)}
         self.text = TextAnalyzer._list_of_words_from_file(self, text_file_name)
         self.stopwords = list(set(TextAnalyzer._list_of_words_from_file(self, stopword_file_name)))
-        self.limit_frequency = limit_frequency
+        self.limit_frequency = int(limit_frequency)
 
 
 

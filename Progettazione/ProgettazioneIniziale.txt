@@ -1,0 +1,22 @@
+Mezzo (marca, modello, nr matricola, costo orario e giornagliero, stato)
+	- Mezzo a motore (km percorsi, targa)
+		- Mezzo elettrico (stato di carica delle batterie )
+			- Bicicletta El.
+			- Monopattino El.
+			- Scooter El.
+		- Mezzo a motore termico (litri di benzina necessari per un pieno, ltri presenti nel serbatoio)
+			- Scooter Bz.
+	- Mezzo non a motore (ore di noleggio)
+		- Bicicletta
+
+Persona (C.F., nome, cognome, indirizzo, abilitato)
+	- Cliente non reg
+		- Cliente reg (mail, telefono, pass, luogo di nascita e data di nascita)
+	- Amministratore (password, luogo di nascita e data di nascita)
+	- Operatore (password, luogo di nascita e data di nascita)
+
+ListaAttesa (CF Cliente, nr matricola, Data, Durata)
+
+Riparazione/Manutenzione (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))
+
+Prenotazione (CF cliente, nr matricola, data di prenotazione (data normale), data di ritiro (timestamp), data consegna (timestamp), durata (si riferisce alla durata di quanto lo voleva) (timestamp))

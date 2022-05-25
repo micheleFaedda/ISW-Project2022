@@ -1,5 +1,3 @@
-CRC
-
 Mezzo (astratta)
 Superclasse: Nessuna
 Descizione: Un mezzo rappresenta un mezzo

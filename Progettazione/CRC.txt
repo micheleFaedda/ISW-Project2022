@@ -1,3 +1,8 @@
+Questa roba è vecchia e diversa dalla implementazione vera che si trova al
+
+https://docs.google.com/spreadsheets/d/1fwx8F6t17unD7L7SF63FuKiPQpUnubHrrkCjolQgLLI/edit?usp=sharing
+
+____
 Mezzo (astratta)
 Superclasse: Nessuna
 Descizione: Un mezzo rappresenta un mezzo

@@ -1,3 +1,5 @@
+Questa roba è vecchia e diversa dalla implementazione vera che si trova nel file dei diagrammi
+
 Tipologia ( tipo, marca, modello, costo orario, costo giornaliero)
 
 Mezzo ( nr matricola, stato, tipo f.k -> Tipologie )
@@ -18,7 +20,7 @@ Persona (C.F., nome, cognome, indirizzo, abilitato) (astratta)
 	- Amministratore (password, luogo di nascita e data di nascita)
 	- Operatore (password, luogo di nascita e data di nascita)
 
-ListaAttesa (CF Cliente, tipo f.k -> Tipologie, Data di prenotazione, Data di ritiro,  Durata)
+ClienteInAttesa (CF Cliente, tipo f.k -> Tipologie, Data di prenotazione, Data di ritiro,  Durata)
 
 Operazioni (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))
 

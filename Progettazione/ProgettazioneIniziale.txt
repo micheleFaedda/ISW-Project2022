@@ -1,4 +1,9 @@
-Mezzo (marca, modello, nr matricola, costo orario e giornagliero, stato)
+Tipologie (nmonopattino,
+		biciletta,
+		...., costo orario e giornagliero, marca, modello)
+
+
+Mezzo ( nr matricola, stato, TIPOLOGIA )
 	- Mezzo a motore (km percorsi, targa)
 		- Mezzo elettrico (stato di carica delle batterie )
 			- Bicicletta El.
@@ -15,7 +20,15 @@ Persona (C.F., nome, cognome, indirizzo, abilitato)
 	- Amministratore (password, luogo di nascita e data di nascita)
 	- Operatore (password, luogo di nascita e data di nascita)
 
-ListaAttesa (CF Cliente, nr matricola, Data, Durata)
+
+Utente senza privileggi (C.F., nome, cognome, indirizzo, abilitato)
+	- Cliente non reg
+	- Cliente reg (+...)  
+Utente con privileggi
+		- Amministratore (password, luogo di nascita e data di nascita)
+		- Operatore (password, luogo di nascita e data di nascita)
+
+ListaAttesa (CF Cliente, TIPOLOGIA, Data di prenotazione, Data di ritiro,  Durata)
 
 Riparazione/Manutenzione (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))
 

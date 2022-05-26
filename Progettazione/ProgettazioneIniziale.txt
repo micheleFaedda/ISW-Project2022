@@ -1,6 +1,6 @@
 Questa roba è vecchia e diversa dalla implementazione vera che si trova nel file dei diagrammi
 
-Tipologia ( tipo, marca, modello, costo orario, costo giornaliero)
+Modello ( tipo, marca, modello, costo orario, costo giornaliero)
 
 Mezzo ( nr matricola, stato, tipo f.k -> Tipologie )
 	- Mezzo a motore (km percorsi, targa)

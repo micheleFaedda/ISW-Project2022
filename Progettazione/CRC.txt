@@ -81,20 +81,20 @@ Responsabilità: Conosce password, luogo di nascita e data di nascita
 Responsabilità: Registrano anche le variazioni di stato dei mezzi Collaborazioni (Mezzo)
 Responsabilità: Provvedono anche alla ricarica o al pieno di benzina, registrandolo nel sistema Collaborazioni (Mezzo)
 Responsabilità: Controllare il livello del carburante per riempire il serbatoio e far pagare la differenza Collaborazioni(Mezzo)
-Responsabilità: registrano i prelievi e le consegne da parte dei clienti, e le fatture emesse Collaboratori(Prenotazione)
+Responsabilità: registrano i prelievi e le consegne da parte dei clienti, e le fatture emesse Collaboratori(Prenotazione, Mezzo)
 
 ///////////////////////////////////////////////////
 
 ListaAttesa 
 Superclasse: Nessuna
-Descrizione:
+Descrizione: .. 
 Responsabilità: Conosce il cliente     Collaborazioni (Cliente)
-Responsabilità: Conosce il mezzo 	   Collaborazioni (Mezzo)
+Responsabilità: Conosce la Tipologia 	   Collaborazioni (Tipologia)
 Responsabilità: Conosce Data e Durata  
 
 ///////////////////////////////////////////////////
 
-Riparazione/Manutenzione 
+Operazione
 Superclasse: Nessuna
 Descrizione: ...
 Responsabilità: Conosce il mezzo 	   Collaborazioni (Mezzo)

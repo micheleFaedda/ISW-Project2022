@@ -30,6 +30,6 @@ Utente con privileggi
 
 ListaAttesa (CF Cliente, TIPOLOGIA, Data di prenotazione, Data di ritiro,  Durata)
 
-Riparazione/Manutenzione (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))
+Operazioni (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))
 
 Prenotazione (CF cliente, nr matricola, data di prenotazione (data normale), data di ritiro (timestamp), data consegna (timestamp), durata (si riferisce alla durata di quanto lo voleva) (timestamp))

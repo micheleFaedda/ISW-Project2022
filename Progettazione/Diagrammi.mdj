@@ -63,7 +63,7 @@
 											"top": 31,
 											"width": 138.0107421875,
 											"height": 13,
-											"text": "Tipologia"
+											"text": "Modello"
 										},
 										{
 											"_type": "LabelView",
@@ -1474,13 +1474,30 @@
 											"height": 13,
 											"text": "+getLitriMancanti()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGBAf68gFKJbRs=",
+											"_parent": {
+												"$ref": "AAAAAAGBAVxMwou5Oo8="
+											},
+											"model": {
+												"$ref": "AAAAAAGBAf68aVKGgTc="
+											},
+											"font": "Arial;13;0",
+											"left": 1157,
+											"top": 347,
+											"width": 140.1943359375,
+											"height": 13,
+											"text": "+isPieno()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1152,
 									"top": 327,
 									"width": 150.1943359375,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1520,7 +1537,7 @@
 							"left": 1152,
 							"top": 264,
 							"width": 150.1943359375,
-							"height": 86,
+							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBAVxMwYuz9gY="
 							},
@@ -4004,7 +4021,7 @@
 											"top": 437,
 											"width": 202.2109375,
 											"height": 13,
-											"text": "-dataPrenotazione: Date",
+											"text": "-dataInizioAttesa: DateTime",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4549,7 +4566,7 @@
 											"top": 451,
 											"width": 198.9482421875,
 											"height": 13,
-											"text": "-durata: Time",
+											"text": "-dataConsegnaEffettiva: DateTime",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5267,8 +5284,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1119,
-									"top": 345,
+									"left": 1118,
+									"top": 349,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5288,8 +5305,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1123,
-									"top": 359,
+									"left": 1122,
+									"top": 364,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5309,8 +5326,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1110,
-									"top": 316,
+									"left": 1111,
+									"top": 320,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5328,7 +5345,7 @@
 								"$ref": "AAAAAAGBAVxMwYuy0/8="
 							},
 							"lineStyle": 1,
-							"points": "1151:327;1079:348",
+							"points": "1151:332;1079:350",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBAdBPfCYgeCg="
@@ -5361,8 +5378,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1342,
-									"top": 312,
+									"left": 1343,
+									"top": 315,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5382,8 +5399,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1342,
-									"top": 327,
+									"left": 1344,
+									"top": 330,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5403,8 +5420,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1341,
-									"top": 283,
+									"left": 1340,
+									"top": 286,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5422,7 +5439,7 @@
 								"$ref": "AAAAAAGBAV0LeYxfQSA="
 							},
 							"lineStyle": 1,
-							"points": "1383:303;1302:305",
+							"points": "1383:305;1302:310",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBAdBwZyYyrOM="
@@ -7946,7 +7963,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Tipologia",
+					"name": "Modello",
 					"ownedElements": [
 						{
 							"_type": "UMLConstraint",
@@ -8446,6 +8463,14 @@
 								"$ref": "AAAAAAGBAVxMwYuwj8k="
 							},
 							"name": "getLitriMancanti"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGBAf68aVKGgTc=",
+							"_parent": {
+								"$ref": "AAAAAAGBAVxMwYuwj8k="
+							},
+							"name": "isPieno"
 						}
 					],
 					"isAbstract": true
@@ -9054,9 +9079,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAW9fCLV5tRs="
 							},
-							"name": "dataPrenotazione",
+							"name": "dataInizioAttesa",
 							"visibility": "private",
-							"type": "Date"
+							"type": "DateTime"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9273,9 +9298,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAXdl9coebFw="
 							},
-							"name": "durata",
+							"name": "dataConsegnaEffettiva",
 							"visibility": "private",
-							"type": "Time"
+							"type": "DateTime"
 						}
 					],
 					"operations": [

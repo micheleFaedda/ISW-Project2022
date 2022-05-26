@@ -6693,11 +6693,10 @@
 									"model": {
 										"$ref": "AAAAAAGBAddcwYGjFO8="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 194,
+									"left": 188,
 									"top": 363,
-									"width": 7.22998046875,
+									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -6705,7 +6704,7 @@
 										"$ref": "AAAAAAGBAddcwYGmc7Q="
 									},
 									"edgePosition": 2,
-									"text": "1"
+									"text": "0..*"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -8991,7 +8990,8 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAGBAW9fCLV5tRs="
-								}
+								},
+								"multiplicity": "0..*"
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
@@ -9345,7 +9345,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "disponibile"
+							"name": "disponibile",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9353,7 +9354,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "prenotato"
+							"name": "prenotato",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9361,7 +9363,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "noleggiato"
+							"name": "noleggiato",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9369,7 +9372,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "guasto"
+							"name": "guasto",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9377,7 +9381,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "inOperazione"
+							"name": "inOperazione",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -9385,7 +9390,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGBAeWoKOMcv9I="
 							},
-							"name": "radiato"
+							"name": "radiato",
+							"type": ""
 						}
 					]
 				}

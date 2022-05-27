@@ -4023,13 +4023,30 @@
 											"height": 13,
 											"text": "-dataRitiroPrevista: DateTime",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBBTRA9HyxKHQ=",
+											"_parent": {
+												"$ref": "AAAAAAGBAW9fCLWBCLg="
+											},
+											"model": {
+												"$ref": "AAAAAAGBBTRA2XyuVwU="
+											},
+											"font": "Arial;13;0",
+											"left": 85,
+											"top": 467,
+											"width": 202.2109375,
+											"height": 13,
+											"text": "-dataConsegnaPrevista",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 80,
 									"top": 417,
 									"width": 212.2109375,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -4042,7 +4059,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 80,
-									"top": 470,
+									"top": 485,
 									"width": 212.2109375,
 									"height": 10
 								},
@@ -9083,6 +9100,15 @@
 							"name": "dataRitiroPrevista",
 							"visibility": "private",
 							"type": "DateTime"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBBTRA2XyuVwU=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW9fCLV5tRs="
+							},
+							"name": "dataConsegnaPrevista",
+							"visibility": "private"
 						}
 					]
 				},

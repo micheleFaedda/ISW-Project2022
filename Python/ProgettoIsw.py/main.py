@@ -3,8 +3,8 @@ import sys
 from test_text_analyzer.TestTextAnalyzer import *
 import time
 
-class TextAnalyzer:
 
+class TextAnalyzer:
 
     def __init__(self, text_file_name, stopword_file_name, limit_frequency):
         self.punctuation = {char: ' ' for char in list(string.punctuation)}
@@ -30,7 +30,6 @@ class TextAnalyzer:
         TextAnalyzer.remove_stopwords(self)
         TextAnalyzer.remove_word_with_single_charatcter(self)
 
-
     def remove_stopwords(self):
         self.text = list(filter(None, [word for word in self.text if word not in self.stopwords]))
 
@@ -46,7 +45,6 @@ class TextAnalyzer:
 
         return_values_from_item = lambda item: item[1]
         return dict(sorted(dict_of_words.items(), key=return_values_from_item, reverse=True))
-
 
     def list_of_words_from_file(self, file_name):
         list_of_stopwords = []
@@ -74,11 +72,9 @@ class TextAnalyzer:
         return {key: value for key, value in dict_composite_words.items() if value >= self.limit_frequency}
 
 
-
 if __name__ == '__main__':
     #testing command
     #unittest.main()
-
 
     text, stopwords, input_frequency = sys.argv[1:]
     start_time = time.time()

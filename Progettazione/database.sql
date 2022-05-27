@@ -4,22 +4,23 @@
 -- mettere le tabelle fatte in sql e le classi (o solo le intestazioni)
 
 CREATE TABLE Modello(
-	tipo VARCHAR(24) PRIMARY KEY, 
 	marca VARCHAR(24) NOT NULL,
-	tipologiaModello VARCHAR(24) NOT NULL,
+	tipoModello VARCHAR(24) NOT NULL,
 	costoOrario DECIMAL(2, 2) NOT NULL,
-	costoGiornaliero DECIMAL(2, 2) NOT NULL
+	costoGiornaliero DECIMAL(2, 2) NOT NULL,
+	PRIMARY KEY(marca, tipoModello)
 );
 
 CREATE TABLE Mezzo(
 	numeroMatricola CHAR(7) PRIMARY KEY, 
 	modello VARCHAR(24) NOT NULL REFERENCES Modello,
-	tipologia VARCHAR(24) CHECK (tipologia IN ('bicicletta', 'bicicletta elettrica', 'scoter elettrico',
+	tipologia VARCHAR(24) NOT NULL CHECK (tipologia IN ('bicicletta', 'bicicletta elettrica', 'scoter elettrico',
 									 'scooter a benzina', 'monopattino elettrico')),
 	stato VARCHAR(24) NOT NULL CHECK (stato IN ('disponibile', 'prenotato', 'noleggiato',
 									 'guasto', 'inOperazione', 'radiato')),
-	kmPercorsi DECIMAL(5,2) NOT NULL,
-	targa VARCHAR(12) UNIQUE ,
+	kmPercorsi DECIMAL(5,2),
+	oreNoleggio DECIMAL(5,2)L,
+	targa VARCHAR(12) UNIQUE,
 	capacitaSerbatoio DECIMAL(2,2),
 	litriPresenti DECIMAL(2),
 	caricaBatterie SMALLINT
@@ -48,9 +49,10 @@ CREATE TABLE Prenotazione(
 	CFCliente CHAR(16) REFERENCES Utente,
 	nrMatricolaMezzo CHAR(7) REFERENCES Mezzo,
 	dataPrenotazione DATE NOT NULL, 
-	dataRitiro TIMESTAMP,
+	dataRitiro TIMESTAMP NOT NULL,
 	dataConsegnaPrevista TIMESTAMP NOT NULL,
 	dataConsegnaEffettiva TIMESTAMP,
+	codiceSconto INTEGER REFERENCES Sconto
 	PRIMARY KEY(CFCliente, nrMatricolaMezzo, dataRitiro)
 );
 
@@ -65,11 +67,19 @@ CREATE TABLE Operazione(
 	officina VARCHAR(24) NOT NULL
 );
 
-CREATE TABLE Attesa(
+CREATE TABLE ClienteInAttesa(
 	idAttesa SERIAL PRIMARY KEY,
 	CFCliente CHAR(16) NOT NULL REFERENCES Utente,
 	modelloMezzo VARCHAR(24) NOT NULL REFERENCES Modello,
 	dataInizioAttesa TIMESTAMP NOT NULL, 
 	dataRitiroPrevista TIMESTAMP NOT NULL,
 	dataConsegnaPrevista TIMESTAMP NOT NULL
+);
+
+CREATE TABLE Sconto(
+	codSconto SERIAL PRIMARY KEY,
+	modello CHAR(16) NOT NULL REFERENCES Modello,
+	dataInizio DATE NOT NULL,
+	percentuale BYTE,
+	dataFine DATE NOT NULL, 
 );

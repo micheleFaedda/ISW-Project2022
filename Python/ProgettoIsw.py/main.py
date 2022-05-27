@@ -3,7 +3,6 @@ import sys
 from test_text_analyzer.TestTextAnalyzer import *
 import time
 
-
 class TextAnalyzer:
 
     def __init__(self, text_file_name, stopword_file_name, limit_frequency):
@@ -40,11 +39,8 @@ class TextAnalyzer:
         return line.translate(str.maketrans(self.punctuation))
 
     def order_frequency_by_value_and_word(self, dict_of_words):
-        return_key_from_item = lambda item: item[0]
-        dict_of_words = dict(sorted(dict_of_words.items(), key=return_key_from_item))
-
-        return_values_from_item = lambda item: item[1]
-        return dict(sorted(dict_of_words.items(), key=return_values_from_item, reverse=True))
+        return_values_from_item = lambda item: (-item[1], item[0])
+        return dict(sorted(dict_of_words.items(), key=return_values_from_item))
 
     def list_of_words_from_file(self, file_name):
         list_of_stopwords = []

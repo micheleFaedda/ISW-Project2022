@@ -20,6 +20,13 @@ Persona (C.F., nome, cognome, indirizzo, abilitato) (astratta)
 	- Amministratore (password, luogo di nascita e data di nascita)
 	- Operatore (password, luogo di nascita e data di nascita)
 
+- Persona (cf, nome, cognome, mail, indirizzo)
+	- Utente reg (luogo di nascita, data di nascita, password)
+		- Amministratore
+		- Operatore (abilitato)
+		- Cliente (abilitato)
+	- ClienteNonReg
+
 ClienteInAttesa (CF Cliente, tipo f.k -> Tipologie, Data di prenotazione, Data di ritiro,  Durata)
 
 Operazioni (nr matricola, data inizio, data fine, tipo intervento, costo, officina utilizzata (stringa, non classe))

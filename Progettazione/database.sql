@@ -57,7 +57,8 @@ CREATE TABLE Operazione(
 	nrMatricolaMezzo CHAR(7) REFERENCES Mezzo,
 	dataInizio DATE, 
 	dataFine TIMESTAMP,
-	tipoIntervento VARCHAR(50),
+	tipoIntervento VARCHAR(50) CHECK (tipoIntervento in ('manutenzione', 'riparazione')),
+	descizioneOperazione VARCHAR(100),
 	costo DECIMAL (4,2),
 	officina VARCHAR(24)
 );

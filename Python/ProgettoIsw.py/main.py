@@ -61,7 +61,6 @@ class TextAnalyzer:
                 dict_pair_words_frequency[composite_words] = 1
 
         dict_pair_words_filtered = TextAnalyzer.filter_frequency_dict_by_limit(self, dict_pair_words_frequency)
-
         return TextAnalyzer.order_frequency_by_value_and_word(self, dict_pair_words_filtered)
 
     def filter_frequency_dict_by_limit(self, dict_composite_words):

@@ -5537,7 +5537,6 @@
 								"$ref": "AAAAAAGBCgRAPQY5k+M="
 							},
 							"points": "968:694;896:694;896:812;564:812",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCgRAPgZcDrY="
 							},
@@ -5870,7 +5869,7 @@
 										"$ref": "AAAAAAGBCgwcZ9mw768="
 									},
 									"edgePosition": 2,
-									"text": "+mezzi"
+									"text": "mezzi"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6015,7 +6014,6 @@
 								"$ref": "AAAAAAGBAVKYdIpkohQ="
 							},
 							"points": "1062:392;1264:392;1264:608",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCgwcZ9mxTiA="
 							},
@@ -6300,7 +6298,7 @@
 									"hostEdge": {
 										"$ref": "AAAAAAGBCmAeep/AQeQ="
 									},
-									"text": "+aministratore"
+									"text": "aministratore"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6384,7 +6382,6 @@
 								"$ref": "AAAAAAGBCgbmkkNSktM="
 							},
 							"points": "1248:656;1112:656",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCmAeep/BmgQ="
 							},
@@ -7878,7 +7875,7 @@
 										"$ref": "AAAAAAGBCnJfxtqXrHQ="
 									},
 									"edgePosition": 2,
-									"text": "+operazioni"
+									"text": "operazioni"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -8025,7 +8022,6 @@
 								"$ref": "AAAAAAGBCnJfxdmiK0E="
 							},
 							"points": "591:344;920:344",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnJfxtqYdjA="
 							},
@@ -9317,7 +9313,7 @@
 									"hostEdge": {
 										"$ref": "AAAAAAGBCnp9No3Tkwc="
 									},
-									"text": "+prenotazioni"
+									"text": "prenotazioni"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -9401,7 +9397,6 @@
 								"$ref": "AAAAAAGBCgRAPQX3r3k="
 							},
 							"points": "564:776;652:776;652:615",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnp9N43UkTM="
 							},
@@ -9530,7 +9525,7 @@
 										"$ref": "AAAAAAGBCnuoHvgO9jM="
 									},
 									"edgePosition": 2,
-									"text": "+sconti"
+									"text": "sconti"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -9673,7 +9668,6 @@
 								"$ref": "AAAAAAGBCnJfxdnSb/M="
 							},
 							"points": "296:400;296:208;920:208",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnuoHvgPUkw="
 							},
@@ -9802,7 +9796,7 @@
 										"$ref": "AAAAAAGBCoDuKPVvoaQ="
 									},
 									"edgePosition": 2,
-									"text": "+mezzi"
+									"text": "mezzi"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -9945,7 +9939,6 @@
 								"$ref": "AAAAAAGBAVKYdIpkohQ="
 							},
 							"points": "992:328;992:240",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCoDuKPVwC9U="
 							},

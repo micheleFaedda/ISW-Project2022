@@ -2970,7 +2970,6 @@
 								"$ref": "AAAAAAGBCgRAPQY5k+M="
 							},
 							"points": "896:614;824:614;824:732;492:732",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCgRAPgZcDrY="
 							},
@@ -4532,7 +4531,7 @@
 										"$ref": "AAAAAAGBCnJfxtqXrHQ="
 									},
 									"edgePosition": 2,
-									"text": "+operazioni"
+									"text": "operazioni"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -4679,7 +4678,6 @@
 								"$ref": "AAAAAAGBCnJfxdmiK0E="
 							},
 							"points": "519:264;848:264",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnJfxtqYdjA="
 							},
@@ -5973,7 +5971,7 @@
 									"hostEdge": {
 										"$ref": "AAAAAAGBCnp9No3Tkwc="
 									},
-									"text": "+prenotazioni"
+									"text": "prenotazioni"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6057,7 +6055,6 @@
 								"$ref": "AAAAAAGBCgRAPQX3r3k="
 							},
 							"points": "492:696;580:696;580:535",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnp9N43UkTM="
 							},
@@ -6186,7 +6183,7 @@
 										"$ref": "AAAAAAGBCnuoHvgO9jM="
 									},
 									"edgePosition": 2,
-									"text": "+sconti"
+									"text": "sconti"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6333,7 +6330,6 @@
 								"$ref": "AAAAAAGBCnJfxdnSb/M="
 							},
 							"points": "224:320;224:128;848:128",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCnuoHvgPUkw="
 							},
@@ -6462,7 +6458,7 @@
 										"$ref": "AAAAAAGBCoDuKPVvoaQ="
 									},
 									"edgePosition": 2,
-									"text": "+mezzi"
+									"text": "mezzi"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6609,7 +6605,6 @@
 								"$ref": "AAAAAAGBAVKYdIpkohQ="
 							},
 							"points": "920:248;920:160",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCoDuKPVwC9U="
 							},

@@ -3656,7 +3656,7 @@
 										"$ref": "AAAAAAGBBrypRYDjABs="
 									},
 									"edgePosition": 2,
-									"text": "+mezzi"
+									"text": "mezzi"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -3798,7 +3798,6 @@
 							},
 							"lineStyle": 1,
 							"points": "575:215;576:129",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBBrypRYDkkR4="
 							},
@@ -6413,7 +6412,7 @@
 										"$ref": "AAAAAAGBCgwcZ9mw768="
 									},
 									"edgePosition": 2,
-									"text": "+mezzi"
+									"text": "mezzi"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6554,7 +6553,6 @@
 								"$ref": "AAAAAAGBAVKYdIpkohQ="
 							},
 							"points": "504:256;408:256",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCgwcZ9mxTiA="
 							},

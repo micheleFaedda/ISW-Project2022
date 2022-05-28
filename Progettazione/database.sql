@@ -3,6 +3,16 @@
 -- la mia idea è fare come ha fatto lui:
 -- mettere le tabelle fatte in sql e le classi (o solo le intestazioni)
 
+CREATE TABLE Noleggio(
+	IBAN CHAR(27) PRIMARY KEY,
+	via VARCHAR(24),
+	numero SMALLINT,
+	CAP CHAR(5),
+	cita VARCHAR(24),
+	ragioneSociale VARCHAR(50)
+);
+
+
 CREATE TABLE Modello(
 	marca VARCHAR(24) NOT NULL,
 	tipoModello VARCHAR(24) NOT NULL,
@@ -42,6 +52,7 @@ CREATE TABLE Utente(
 	numero SMALLINT,
 	CAP CHAR(5),
 	cita VARCHAR(24),
+	noleggio CHAR(27) REFERENCES Noleggio,
 	abilitato BOOL
 );
 

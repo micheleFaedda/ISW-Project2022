@@ -14,6 +14,8 @@ CREATE TABLE Noleggio(
 
 
 CREATE TABLE Modello(
+	tipologia VARCHAR(24) NOT NULL CHECK (tipologia IN ('bicicletta', 'bicicletta elettrica', 'scoter elettrico',
+									 'scooter a benzina', 'monopattino elettrico'))
 	marca VARCHAR(24) NOT NULL,
 	tipoModello VARCHAR(24) NOT NULL,
 	costoOrario DECIMAL(2, 2) NOT NULL,
@@ -24,8 +26,6 @@ CREATE TABLE Modello(
 CREATE TABLE Mezzo(
 	numeroMatricola CHAR(7) PRIMARY KEY, 
 	modello VARCHAR(24) NOT NULL REFERENCES Modello,
-	tipologia VARCHAR(24) NOT NULL CHECK (tipologia IN ('bicicletta', 'bicicletta elettrica', 'scoter elettrico',
-									 'scooter a benzina', 'monopattino elettrico')),
 	stato VARCHAR(24) NOT NULL CHECK (stato IN ('disponibile', 'prenotato', 'noleggiato',
 									 'guasto', 'inOperazione', 'radiato')),
 	kmPercorsi DECIMAL(5,2),
@@ -57,6 +57,7 @@ CREATE TABLE Utente(
 );
 
 CREATE TABLE Prenotazione(
+	idPrenotazione SERIAL PRIMARY KEY,
 	CFCliente CHAR(16) REFERENCES Utente,
 	nrMatricolaMezzo CHAR(7) REFERENCES Mezzo,
 	dataPrenotazione DATE NOT NULL, 
@@ -64,7 +65,6 @@ CREATE TABLE Prenotazione(
 	dataConsegnaPrevista TIMESTAMP NOT NULL,
 	dataConsegnaEffettiva TIMESTAMP,
 	codiceSconto INTEGER REFERENCES Sconto
-	PRIMARY KEY(CFCliente, nrMatricolaMezzo, dataRitiro)
 );
 
 CREATE TABLE Operazione(

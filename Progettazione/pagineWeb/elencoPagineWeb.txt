@@ -1,0 +1,21 @@
+Cliente
+	- pagina di Login
+	- pagina di Registrazione
+	- pagina Home
+	- pagina presentazione modelli/mezzi con possibilità di prenotazione e inserimento in lista di attesa
+	- pagina elenco proprie prenotazioni con possibilità di disdire
+	- pagina Profilo personale
+
+Operatore
+	- Pagina di elenco mezzi e dei loro stati con possibilità di modificarli
+	- Pagina inserimento prenotazione per un cliente non registrato
+	- Pagina elenco prenotazioni (con quelle correnti in primo piano)
+	- Pagina riepilogo prenotazione con possibilità di modifica (es.: chiuderla )
+
+Amministratore
+	- Pagina di inserimento dei dati dei mezzi
+	- Pagina di inserimento dei dati degli operatori
+	- Pagina di inserimento dei dati dei parametri economici
+	- Pagina elenco operatori e utenti con possibilità di abilitarli/disabilitarli
+	- Pagina per richiedere informazioni statistiche sullo stato dei mezzi e operazioni dei clienti
+

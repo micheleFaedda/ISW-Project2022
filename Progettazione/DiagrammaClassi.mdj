@@ -206,13 +206,30 @@
 											"height": 13,
 											"text": "-costoGiornagliero: float",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBFgkcuKjEf0g=",
+											"_parent": {
+												"$ref": "AAAAAAGBAU9MLooTVXc="
+											},
+											"model": {
+												"$ref": "AAAAAAGBFgkcp6jBDvw="
+											},
+											"font": "Arial;13;0",
+											"left": 925,
+											"top": 228,
+											"width": 138.0107421875,
+											"height": 13,
+											"text": "-tipologia: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 920,
 									"top": 161,
 									"width": 148.0107421875,
-									"height": 70
+									"height": 85
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -245,7 +262,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 920,
-									"top": 231,
+									"top": 246,
 									"width": 148.0107421875,
 									"height": 10
 								},
@@ -287,7 +304,7 @@
 							"left": 920,
 							"top": 136,
 							"width": 148.0107421875,
-							"height": 105,
+							"height": 120,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBAU9MLooOR14="
 							},
@@ -9452,7 +9469,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 977,
-									"top": 277,
+									"top": 284,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -9473,7 +9490,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 962,
-									"top": 277,
+									"top": 284,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -9494,7 +9511,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1006,
-									"top": 278,
+									"top": 285,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -9580,7 +9597,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 977,
-									"top": 259,
+									"top": 274,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -9600,7 +9617,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 963,
-									"top": 262,
+									"top": 277,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -9619,7 +9636,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1001,
-									"top": 255,
+									"top": 270,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -9665,7 +9682,7 @@
 							"tail": {
 								"$ref": "AAAAAAGBAVKYdIpkohQ="
 							},
-							"points": "992:328;992:240",
+							"points": "992:328;992:255",
 							"nameLabel": {
 								"$ref": "AAAAAAGBCoDuKPVwC9U="
 							},
@@ -10139,6 +10156,16 @@
 							"name": "costoGiornagliero",
 							"visibility": "private",
 							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBFgkcp6jBDvw=",
+							"_parent": {
+								"$ref": "AAAAAAGA/K/0hsvLQ08="
+							},
+							"name": "tipologia",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [

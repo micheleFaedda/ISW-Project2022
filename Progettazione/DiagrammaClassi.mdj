@@ -4415,13 +4415,30 @@
 											"height": 13,
 											"text": "-abilitato: Boolean",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBGWHla4PPExA=",
+											"_parent": {
+												"$ref": "AAAAAAGBCgRAPQYfTys="
+											},
+											"model": {
+												"$ref": "AAAAAAGBGWHlVIPMIFU="
+											},
+											"font": "Arial;13;0",
+											"left": 973,
+											"top": 866,
+											"width": 123.931640625,
+											"height": 13,
+											"text": "-mail: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 968,
 									"top": 801,
 									"width": 133.931640625,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -4444,7 +4461,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 874,
+											"top": 889,
 											"width": 123.931640625,
 											"height": 13,
 											"text": "+creaOperazione()",
@@ -4461,7 +4478,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 889,
+											"top": 904,
 											"width": 123.931640625,
 											"height": 13,
 											"text": "+setStatoMezzo()",
@@ -4470,7 +4487,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 968,
-									"top": 869,
+									"top": 884,
 									"width": 133.931640625,
 									"height": 38
 								},
@@ -4512,7 +4529,7 @@
 							"left": 968,
 							"top": 776,
 							"width": 133.931640625,
-							"height": 133,
+							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBCgRAPQYaDM8="
 							},
@@ -4960,13 +4977,30 @@
 											"height": 13,
 											"text": "-dataNascita: Date",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBGWFVi3zxQtI=",
+											"_parent": {
+												"$ref": "AAAAAAGBCgRAPQY/Ru4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBGWFVdXzupSQ="
+											},
+											"font": "Arial;13;0",
+											"left": 973,
+											"top": 571,
+											"width": 134.7607421875,
+											"height": 13,
+											"text": "-mail: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 968,
 									"top": 521,
 									"width": 144.7607421875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -4989,7 +5023,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 579,
+											"top": 594,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+getStatisticheMezzo()",
@@ -5006,7 +5040,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 594,
+											"top": 609,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+getStatisticheCliente()",
@@ -5023,7 +5057,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 609,
+											"top": 624,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaMezzo()",
@@ -5040,7 +5074,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 624,
+											"top": 639,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaModello()",
@@ -5057,7 +5091,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 639,
+											"top": 654,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaSconto()",
@@ -5074,7 +5108,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 654,
+											"top": 669,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+abilitaOperatore()",
@@ -5091,7 +5125,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 669,
+											"top": 684,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+disabilitaOperatore()",
@@ -5108,7 +5142,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 684,
+											"top": 699,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+abilitaCliente()",
@@ -5125,7 +5159,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 973,
-											"top": 699,
+											"top": 714,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+disabilitaCliente()",
@@ -5134,7 +5168,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 968,
-									"top": 574,
+									"top": 589,
 									"width": 144.7607421875,
 									"height": 143
 								},
@@ -5176,7 +5210,7 @@
 							"left": 968,
 							"top": 496,
 							"width": 144.7607421875,
-							"height": 221,
+							"height": 236,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBCgRAPQY6j2c="
 							},
@@ -11180,6 +11214,16 @@
 							"name": "dataNascita",
 							"visibility": "private",
 							"type": "Date"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBGWFVdXzupSQ=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW3I6a6ARyo="
+							},
+							"name": "mail",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [
@@ -11358,6 +11402,16 @@
 							"name": "abilitato",
 							"visibility": "private",
 							"type": "Boolean"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBGWHlVIPMIFU=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW6sebDMwf4="
+							},
+							"name": "mail",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [

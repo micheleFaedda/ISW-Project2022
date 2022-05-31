@@ -27,7 +27,7 @@
 (Persone)
 - Persona
 - ClienteNonRgistrato
-- UtenteRegistrato
+- ClienteNonRegistrato
+- Cliente
 - Amministratore
-- ClienteRegistrato
 - Operatore

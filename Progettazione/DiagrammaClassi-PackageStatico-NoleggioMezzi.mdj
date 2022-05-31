@@ -4940,13 +4940,30 @@
 											"height": 13,
 											"text": "-abilitato: Boolean",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBGdVd3NNXrjM=",
+											"_parent": {
+												"$ref": "AAAAAAGBCgRAPQYfTys="
+											},
+											"model": {
+												"$ref": "AAAAAAGBGdVdydNOg9c="
+											},
+											"font": "Arial;13;0",
+											"left": 557,
+											"top": 754,
+											"width": 123.931640625,
+											"height": 13,
+											"text": "-mail: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 552,
 									"top": 689,
 									"width": 133.931640625,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -4969,7 +4986,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 762,
+											"top": 777,
 											"width": 123.931640625,
 											"height": 13,
 											"text": "+creaOperazione()",
@@ -4986,7 +5003,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 777,
+											"top": 792,
 											"width": 123.931640625,
 											"height": 13,
 											"text": "+setStatoMezzo()",
@@ -4995,7 +5012,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 552,
-									"top": 757,
+									"top": 772,
 									"width": 133.931640625,
 									"height": 38
 								},
@@ -5037,7 +5054,7 @@
 							"left": 552,
 							"top": 664,
 							"width": 133.931640625,
-							"height": 133,
+							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBCgRAPQYaDM8="
 							},
@@ -5485,13 +5502,30 @@
 											"height": 13,
 											"text": "-dataNascita: Date",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGBGdUsaMxrkDg=",
+											"_parent": {
+												"$ref": "AAAAAAGBCgRAPQY/Ru4="
+											},
+											"model": {
+												"$ref": "AAAAAAGBGdUsTcxi7Ns="
+											},
+											"font": "Arial;13;0",
+											"left": 557,
+											"top": 459,
+											"width": 134.7607421875,
+											"height": 13,
+											"text": "-mail: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 552,
 									"top": 409,
 									"width": 144.7607421875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -5514,7 +5548,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 467,
+											"top": 482,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+getStatisticheMezzo()",
@@ -5531,7 +5565,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 482,
+											"top": 497,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+getStatisticheCliente()",
@@ -5548,7 +5582,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 497,
+											"top": 512,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaMezzo()",
@@ -5565,7 +5599,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 512,
+											"top": 527,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaModello()",
@@ -5582,7 +5616,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 527,
+											"top": 542,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+creaSconto()",
@@ -5599,7 +5633,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 542,
+											"top": 557,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+abilitaOperatore()",
@@ -5616,7 +5650,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 557,
+											"top": 572,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+disabilitaOperatore()",
@@ -5633,7 +5667,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 572,
+											"top": 587,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+abilitaCliente()",
@@ -5650,7 +5684,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 587,
+											"top": 602,
 											"width": 134.7607421875,
 											"height": 13,
 											"text": "+disabilitaCliente()",
@@ -5659,7 +5693,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 552,
-									"top": 462,
+									"top": 477,
 									"width": 144.7607421875,
 									"height": 143
 								},
@@ -5701,7 +5735,7 @@
 							"left": 552,
 							"top": 384,
 							"width": 144.7607421875,
-							"height": 221,
+							"height": 236,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBCgRAPQY6j2c="
 							},
@@ -6133,7 +6167,7 @@
 											"top": 215,
 											"width": 134.77978515625,
 											"height": 13,
-											"text": "Noleggio"
+											"text": "StrutturaNoleggio"
 										},
 										{
 											"_type": "LabelView",
@@ -6275,8 +6309,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 120,
-									"top": -160,
+									"left": 664,
+									"top": 120,
 									"width": 10,
 									"height": 10
 								},
@@ -6291,8 +6325,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 120,
-									"top": -160,
+									"left": 664,
+									"top": 120,
 									"width": 10,
 									"height": 10
 								}
@@ -8068,6 +8102,16 @@
 							"name": "dataNascita",
 							"visibility": "private",
 							"type": "Date"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBGdUsTcxi7Ns=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW3I6a6ARyo="
+							},
+							"name": "mail",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [
@@ -8246,6 +8290,16 @@
 							"name": "abilitato",
 							"visibility": "private",
 							"type": "Boolean"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGBGdVdydNOg9c=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW6sebDMwf4="
+							},
+							"name": "mail",
+							"visibility": "private",
+							"type": "String"
 						}
 					],
 					"operations": [
@@ -8980,7 +9034,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Noleggio",
+					"name": "StrutturaNoleggio",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",

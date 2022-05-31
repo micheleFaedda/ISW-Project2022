@@ -3,7 +3,7 @@
 -- la mia idea è fare come ha fatto lui:
 -- mettere le tabelle fatte in sql e le classi (o solo le intestazioni)
 
-CREATE TABLE Noleggio(
+CREATE TABLE StrutturaNoleggio(
 	IBAN CHAR(27) PRIMARY KEY,
 	via VARCHAR(24),
 	numero SMALLINT,
@@ -14,22 +14,22 @@ CREATE TABLE Noleggio(
 
 
 CREATE TABLE Modello(
+	idModello SERIAL PRIMARY KEY,
 	tipologia VARCHAR(24) NOT NULL CHECK (tipologia IN ('bicicletta', 'bicicletta elettrica', 'scoter elettrico',
-									 'scooter a benzina', 'monopattino elettrico'))
+									 'scooter a benzina', 'monopattino elettrico')),
 	marca VARCHAR(24) NOT NULL,
 	tipoModello VARCHAR(24) NOT NULL,
 	costoOrario DECIMAL(2, 2) NOT NULL,
-	costoGiornaliero DECIMAL(2, 2) NOT NULL,
-	PRIMARY KEY(marca, tipoModello)
+	costoGiornaliero DECIMAL(2, 2) NOT NULL
 );
 
 CREATE TABLE Mezzo(
 	numeroMatricola CHAR(7) PRIMARY KEY, 
-	modello VARCHAR(24) NOT NULL REFERENCES Modello,
+	modello INTEGER NOT NULL REFERENCES Modello,
 	stato VARCHAR(24) NOT NULL CHECK (stato IN ('disponibile', 'prenotato', 'noleggiato',
 									 'guasto', 'inOperazione', 'radiato')),
 	kmPercorsi DECIMAL(5,2),
-	oreNoleggio DECIMAL(5,2)L,
+	oreNoleggio DECIMAL(5,2),
 	targa VARCHAR(12) UNIQUE,
 	capacitaSerbatoio DECIMAL(2,2),
 	litriPresenti DECIMAL(2),
@@ -52,8 +52,16 @@ CREATE TABLE Utente(
 	numero SMALLINT,
 	CAP CHAR(5),
 	cita VARCHAR(24),
-	noleggio CHAR(27) REFERENCES Noleggio,
+	noleggio CHAR(27) REFERENCES StrutturaNoleggio,
 	abilitato BOOL
+);
+
+CREATE TABLE Sconto(
+	codSconto SERIAL PRIMARY KEY,
+	modello INTEGER NOT NULL REFERENCES Modello,
+	dataInizio DATE NOT NULL,
+	percentuale SMALLINT,
+	dataFine DATE NOT NULL
 );
 
 CREATE TABLE Prenotazione(
@@ -65,6 +73,21 @@ CREATE TABLE Prenotazione(
 	dataConsegnaPrevista TIMESTAMP NOT NULL,
 	dataConsegnaEffettiva TIMESTAMP,
 	codiceSconto INTEGER REFERENCES Sconto
+);
+
+CREATE TABLE Pagamento(
+	idPagamento SERIAL PRIMARY KEY,
+	idPrenotazione INTEGER REFERENCES Prenotazione NOT NULL,
+	importo DECIMAL(4,2) CHECK (importo > 0) NOT NULL,
+	casuale VARCHAR(20) NOT NULL,
+	descrizione VARCHAR(200)
+);
+
+CREATE TABLE Fattura(
+	idPagamento INTEGER PRIMARY KEY REFERENCES Pagamento,
+	protocollo VARCHAR(24) NOT NULL,
+	nomeFile VARCHAR(32) NOT NULL,
+	dataEmissione DATE NOT NULL
 );
 
 CREATE TABLE Operazione(
@@ -81,16 +104,8 @@ CREATE TABLE Operazione(
 CREATE TABLE ClienteInAttesa(
 	idAttesa SERIAL PRIMARY KEY,
 	CFCliente CHAR(16) NOT NULL REFERENCES Utente,
-	modelloMezzo VARCHAR(24) NOT NULL REFERENCES Modello,
+	modelloMezzo SERIAL NOT NULL REFERENCES Modello,
 	dataInizioAttesa TIMESTAMP NOT NULL, 
 	dataRitiroPrevista TIMESTAMP NOT NULL,
 	dataConsegnaPrevista TIMESTAMP NOT NULL
-);
-
-CREATE TABLE Sconto(
-	codSconto SERIAL PRIMARY KEY,
-	modello CHAR(16) NOT NULL REFERENCES Modello,
-	dataInizio DATE NOT NULL,
-	percentuale BYTE,
-	dataFine DATE NOT NULL, 
 );

@@ -6558,16 +6558,17 @@
 									"model": {
 										"$ref": "AAAAAAGBCmAeeZ++Vok="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 526,
-									"top": 442,
+									"left": 440,
+									"top": 441,
+									"width": 93.55810546875,
 									"height": 13,
-									"alpha": -0.5235987755982988,
-									"distance": 30,
+									"alpha": -0.22347663388458017,
+									"distance": 67.68308503607086,
 									"hostEdge": {
 										"$ref": "AAAAAAGBCmAeep/AQeQ="
-									}
+									},
+									"text": "amministratore"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -6647,7 +6648,6 @@
 								"$ref": "AAAAAAGBCgbmkkNSktM="
 							},
 							"points": "381:295;381:463;552:463",
-							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGBCmAeep/BmgQ="
 							},
@@ -9090,6 +9090,7 @@
 								"_parent": {
 									"$ref": "AAAAAAGBCmAeeZ+8SIo="
 								},
+								"name": "amministratore",
 								"reference": {
 									"$ref": "AAAAAAGBAW3I6a6ARyo="
 								},

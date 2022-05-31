@@ -1,0 +1,33 @@
+4x6
+
+(Mezzi non roba tangibile diciamo)
+- Modello
+- Mezzo
+- MezzoAMotore
+- MezzoNonAMotore
+- MezzoAMotoreTermico
+- MezzoAMotoreElettrico
+
+(Mezzi roba tangibile)
+- StrutturaNoleggio
+- Bicicletta
+- BiciclettaElettrica
+- ScooterBenzina
+- ScooterElettrico
+- MonopattinoElettrico
+
+(Prenotazioni e Operazioni)
+- Prenotazione
+- Operazione
+- Sconto
+- ClienteInAttesa
+- Pagamento
+- Fattura
+
+(Persone)
+- Persona
+- ClienteNonRgistrato
+- UtenteRegistrato
+- Amministratore
+- ClienteRegistrato
+- Operatore

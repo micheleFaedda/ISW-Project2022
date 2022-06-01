@@ -9,7 +9,8 @@ CREATE TABLE StrutturaNoleggio(
 	numero SMALLINT,
 	CAP CHAR(5),
 	cita VARCHAR(24),
-	ragioneSociale VARCHAR(50)
+	ragioneSociale VARCHAR(50),
+	amministratore CHAR(27) NOT NULL REFERENCES Utente,
 );
 
 
@@ -52,7 +53,6 @@ CREATE TABLE Utente(
 	numero SMALLINT,
 	CAP CHAR(5),
 	cita VARCHAR(24),
-	noleggio CHAR(27) REFERENCES StrutturaNoleggio,
 	abilitato BOOL
 );
 
@@ -101,7 +101,7 @@ CREATE TABLE Operazione(
 	officina VARCHAR(24) NOT NULL
 );
 
-CREATE TABLE ClienteInAttesa(
+CREATE TABLE AttesaPrenotazione(
 	idAttesa SERIAL PRIMARY KEY,
 	CFCliente CHAR(16) NOT NULL REFERENCES Utente,
 	modelloMezzo SERIAL NOT NULL REFERENCES Modello,

@@ -4229,9 +4229,9 @@
 													"font": "Arial;13;1",
 													"left": 813,
 													"top": 47,
-													"width": 155.919921875,
+													"width": 188.419921875,
 													"height": 13,
-													"text": ":RegistroClientiAttesa"
+													"text": ":RegistroAttesaPrenotazione"
 												},
 												{
 													"_type": "LabelView",
@@ -4262,7 +4262,7 @@
 											"font": "Arial;13;0",
 											"left": 808,
 											"top": 40,
-											"width": 165.919921875,
+											"width": 198.419921875,
 											"height": 40,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGBDz1MeyzF+EA="
@@ -4287,7 +4287,7 @@
 												"$ref": "AAAAAAGBDz1MeyzC8s8="
 											},
 											"font": "Arial;13;0",
-											"left": 891,
+											"left": 907,
 											"top": 80,
 											"width": 1,
 											"height": 1137
@@ -4296,7 +4296,7 @@
 									"font": "Arial;13;0",
 									"left": 808,
 									"top": 40,
-									"width": 165.919921875,
+									"width": 198.419921875,
 									"height": 1177,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDz1MeyzEm3I="
@@ -5684,7 +5684,7 @@
 												"$ref": "AAAAAAGBD1C2ry60UzU="
 											},
 											"font": "Arial;13;0",
-											"left": 483,
+											"left": 491,
 											"top": 760,
 											"width": 299.12060546875,
 											"height": 13,
@@ -5707,7 +5707,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 632,
+											"left": 640,
 											"top": 745,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -5728,7 +5728,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 632,
+											"left": 640,
 											"top": 780,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -5748,7 +5748,7 @@
 												"$ref": "AAAAAAGBD1C2ry60UzU="
 											},
 											"font": "Arial;13;0",
-											"left": 884,
+											"left": 900,
 											"top": 776,
 											"width": 14,
 											"height": 29
@@ -5761,7 +5761,7 @@
 									"tail": {
 										"$ref": "AAAAAAGBD0M10i2H66M="
 									},
-									"points": "381:776;884:776",
+									"points": "381:776;900:776",
 									"nameLabel": {
 										"$ref": "AAAAAAGBD1C2ry62L6w="
 									},
@@ -5795,7 +5795,7 @@
 												"$ref": "AAAAAAGBD1MbEC7M96w="
 											},
 											"font": "Arial;13;0",
-											"left": 608,
+											"left": 616,
 											"top": 828,
 											"width": 55.6435546875,
 											"height": 13,
@@ -5818,7 +5818,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 635,
+											"left": 643,
 											"top": 843,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -5839,7 +5839,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 636,
+											"left": 644,
 											"top": 808,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -5873,7 +5873,7 @@
 									"tail": {
 										"$ref": "AAAAAAGBDz1MeyzJ39M="
 									},
-									"points": "891:824;381:824",
+									"points": "907:824;381:824",
 									"nameLabel": {
 										"$ref": "AAAAAAGBD1MbEC7OcDs="
 									},
@@ -6621,7 +6621,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBDzrQiSyN2Aw="
 							},
-							"name": ":RegistroClientiAttesa",
+							"name": ":RegistroAttesaPrenotazione",
 							"represent": {
 								"$ref": "AAAAAAGBDz1MeyzBxTE="
 							},

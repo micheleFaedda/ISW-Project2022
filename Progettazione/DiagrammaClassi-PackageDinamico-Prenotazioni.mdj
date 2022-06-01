@@ -2198,7 +2198,7 @@
 											"top": 447,
 											"width": 202.2109375,
 											"height": 13,
-											"text": "ClienteInAttesa"
+											"text": "AttesaPrenotazione"
 										},
 										{
 											"_type": "LabelView",
@@ -7258,7 +7258,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ClienteInAttesa",
+					"name": "AttesaPrenotazione",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",

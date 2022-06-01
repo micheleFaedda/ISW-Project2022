@@ -87,9 +87,9 @@
 												"$ref": "AAAAAAGBDs+eiCWP6TI="
 											},
 											"font": "Arial;13;0",
-											"left": 96.72998046875,
+											"left": 94.55908203125,
 											"top": 37,
-											"width": 89.88623046875,
+											"width": 85.48095703125,
 											"height": 13,
 											"text": "AggiungiMezzo"
 										},
@@ -102,7 +102,7 @@
 											"font": "Arial;13;1",
 											"left": 77,
 											"top": 37,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -1235,9 +1235,9 @@
 												"$ref": "AAAAAAGBDuJ5Gic3Ng0="
 											},
 											"font": "Arial;13;0",
-											"left": 24.72998046875,
+											"left": 22.55908203125,
 											"top": 5,
-											"width": 120.95166015625,
+											"width": 110.02099609375,
 											"height": 13,
 											"text": "RegistrazioneCliente"
 										},
@@ -1250,7 +1250,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 5,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -2923,9 +2923,9 @@
 												"$ref": "AAAAAAGBDxUo4Cnxijg="
 											},
 											"font": "Arial;13;0",
-											"left": 64.72998046875,
+											"left": 62.55908203125,
 											"top": 13,
-											"width": 153.47705078125,
+											"width": 139.61376953125,
 											"height": 13,
 											"text": "PrenotazioneMezzoOnline"
 										},
@@ -2938,7 +2938,7 @@
 											"font": "Arial;13;1",
 											"left": 45,
 											"top": 13,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -4041,7 +4041,7 @@
 												"$ref": "AAAAAAGBDzrQiSyPLa0="
 											},
 											"font": "Arial;13;0",
-											"left": 280.72998046875,
+											"left": 40.72998046875,
 											"top": 5,
 											"width": 125.2998046875,
 											"height": 13,
@@ -4054,7 +4054,7 @@
 												"$ref": "AAAAAAGBDzrQiSyPLa0="
 											},
 											"font": "Arial;13;1",
-											"left": 261,
+											"left": 21,
 											"top": 5,
 											"width": 14.72998046875,
 											"height": 13,
@@ -4062,8 +4062,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 256,
-									"width": 1313,
+									"left": 16,
+									"width": 1401,
 									"height": 1209,
 									"nameLabel": {
 										"$ref": "AAAAAAGBDzrQiiyQ1dc="
@@ -4173,14 +4173,14 @@
 											"left": 113,
 											"top": 105,
 											"width": 1,
-											"height": 1030
+											"height": 1104
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 24,
 									"top": 40,
 									"width": 178.30810546875,
-									"height": 1095,
+									"height": 1169,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDz0lfSyk01s="
@@ -4290,14 +4290,14 @@
 											"left": 907,
 											"top": 80,
 											"width": 1,
-											"height": 1137
+											"height": 1129
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 808,
 									"top": 40,
 									"width": 198.419921875,
-									"height": 1177,
+									"height": 1169,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDz1MeyzEm3I="
 									},

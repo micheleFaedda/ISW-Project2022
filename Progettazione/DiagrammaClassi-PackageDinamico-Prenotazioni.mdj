@@ -5795,16 +5795,16 @@
 										"$ref": "AAAAAAGBGcb3tv6y0jg="
 									},
 									"font": "Arial;13;0",
-									"left": 1111,
+									"left": 1104,
 									"top": 510,
-									"width": 7.22998046875,
+									"width": 21.68359375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
 									"hostEdge": {
 										"$ref": "AAAAAAGBGcb3t/60RLU="
 									},
-									"text": "1"
+									"text": "0..1"
 								},
 								{
 									"_type": "UMLQualifierCompartmentView",
@@ -8282,7 +8282,7 @@
 									"$ref": "AAAAAAGBGcZIZOoIqy4="
 								},
 								"navigable": "navigable",
-								"multiplicity": "1"
+								"multiplicity": "0..1"
 							}
 						}
 					],

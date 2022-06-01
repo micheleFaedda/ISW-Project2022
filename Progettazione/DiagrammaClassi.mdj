@@ -10945,16 +10945,16 @@
 										"$ref": "AAAAAAGBGcKSR8QAMQE="
 									},
 									"font": "Arial;13;0",
-									"left": 1183,
+									"left": 1176,
 									"top": 641,
-									"width": 7.22998046875,
+									"width": 21.68359375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
 									"hostEdge": {
 										"$ref": "AAAAAAGBGcKSR8QC1lM="
 									},
-									"text": "1"
+									"text": "0..1"
 								},
 								{
 									"_type": "UMLQualifierCompartmentView",
@@ -13231,7 +13231,8 @@
 								"$ref": "AAAAAAGBBn3avQK95JE="
 							},
 							"name": "dataInizio Date",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -13522,7 +13523,7 @@
 									"$ref": "AAAAAAGBGb/uQw07tR4="
 								},
 								"navigable": "navigable",
-								"multiplicity": "1"
+								"multiplicity": "0..1"
 							}
 						}
 					],

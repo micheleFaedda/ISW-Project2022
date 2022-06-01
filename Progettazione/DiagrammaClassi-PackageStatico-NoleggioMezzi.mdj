@@ -4637,7 +4637,7 @@
 											"font": "Arial;13;1",
 											"left": 741,
 											"top": 655,
-											"width": 123.931640625,
+											"width": 141.26708984375,
 											"height": 13,
 											"text": "Operatore"
 										},
@@ -4672,7 +4672,7 @@
 									"font": "Arial;13;0",
 									"left": 736,
 									"top": 648,
-									"width": 133.931640625,
+									"width": 151.26708984375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBCgRAPQYbLH8="
@@ -4709,7 +4709,7 @@
 											"font": "Arial;13;0",
 											"left": 741,
 											"top": 678,
-											"width": 123.931640625,
+											"width": 141.26708984375,
 											"height": 13,
 											"text": "-abilitato: Boolean",
 											"horizontalAlignment": 0
@@ -4718,7 +4718,7 @@
 									"font": "Arial;13;0",
 									"left": 736,
 									"top": 673,
-									"width": 133.931640625,
+									"width": 151.26708984375,
 									"height": 23
 								},
 								{
@@ -4743,17 +4743,34 @@
 											"font": "Arial;13;0",
 											"left": 741,
 											"top": 701,
-											"width": 123.931640625,
+											"width": 141.26708984375,
 											"height": 13,
 											"text": "+setStatoMezzo()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGBIHmgLy9Z1sA=",
+											"_parent": {
+												"$ref": "AAAAAAGBCgRAPQYkj4o="
+											},
+											"model": {
+												"$ref": "AAAAAAGBIHmgGi9Qz+I="
+											},
+											"font": "Arial;13;0",
+											"left": 741,
+											"top": 716,
+											"width": 141.26708984375,
+											"height": 13,
+											"text": "+modificaPrenotazione()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 736,
 									"top": 696,
-									"width": 133.931640625,
-									"height": 23
+									"width": 151.26708984375,
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -4792,8 +4809,8 @@
 							"containerChangeable": true,
 							"left": 736,
 							"top": 648,
-							"width": 133.931640625,
-							"height": 73,
+							"width": 151.26708984375,
+							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGBCgRAPQYaDM8="
 							},
@@ -8131,6 +8148,14 @@
 								"$ref": "AAAAAAGBAW6sebDMwf4="
 							},
 							"name": "setStatoMezzo"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGBIHmgGi9Qz+I=",
+							"_parent": {
+								"$ref": "AAAAAAGBAW6sebDMwf4="
+							},
+							"name": "modificaPrenotazione"
 						}
 					]
 				},

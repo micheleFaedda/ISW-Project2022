@@ -43,12 +43,12 @@ class TextAnalyzer:
         return dict(sorted(dict_of_words.items(), key=return_values_from_item))
 
     def list_of_words_from_file(self, file_name):
-        list_of_stopwords = []
+        list_of_words = []
         with open(file_name) as file:
             for line in file:
                 line_without_puntactions = TextAnalyzer.remove_punctuation_from_line(self, line)
-                list_of_stopwords.extend(line_without_puntactions.strip().lower().split(' '))
-        return list_of_stopwords
+                list_of_words.extend(line_without_puntactions.strip().lower().split(' '))
+        return list_of_words
 
     def text_frequency_of_composite_words(self):
         dict_pair_words_frequency = {}

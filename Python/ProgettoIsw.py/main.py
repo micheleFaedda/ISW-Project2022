@@ -7,7 +7,7 @@ class TextAnalyzer:
 
     def __init__(self, text_file_name, stopword_file_name, limit_frequency):
         self.punctuation = {char: ' ' for char in list(string.punctuation)}
-        self.text = TextAnalyzer.list_of_words_from_file(self, text_file_name)
+        self.text_list = TextAnalyzer.list_of_words_from_file(self, text_file_name)
         self.stopwords = list(set(TextAnalyzer.list_of_words_from_file(self, stopword_file_name)))
         self.limit_frequency = int(limit_frequency)
 
@@ -18,7 +18,7 @@ class TextAnalyzer:
 
     def text_frequency_of_words(self):
         frequency_dictionary = {}
-        for word in self.text:
+        for word in self.text_list:
             if word in frequency_dictionary:
                 frequency_dictionary[word] += 1
             else:
@@ -27,13 +27,13 @@ class TextAnalyzer:
 
     def prepare_text_for_analysis_from_file(self):
         TextAnalyzer.remove_stopwords(self)
-        TextAnalyzer.remove_word_with_single_charatcter(self)
+        TextAnalyzer.remove_word_with_single_or_zero_charatcter(self)
 
     def remove_stopwords(self):
-        self.text = list(filter(None, [word for word in self.text if word not in self.stopwords]))
+        self.text_list = list(filter(None, [word for word in self.text_list if word not in self.stopwords]))
 
-    def remove_word_with_single_charatcter(self):
-        self.text = list(filter(None, [word for word in self.text if len(word) != 1]))
+    def remove_word_with_single_or_zero_charatcter(self):
+        self.text_list = list(filter(None, [word for word in self.text_list if len(word) != 1]))
 
     def remove_punctuation_from_line(self, line):
         return line.translate(str.maketrans(self.punctuation))
@@ -53,8 +53,8 @@ class TextAnalyzer:
     def text_frequency_of_composite_words(self):
         dict_pair_words_frequency = {}
 
-        for i in range(len(self.text) - 1):
-            composite_words = self.text[i] + "," + self.text[i + 1]
+        for i in range(len(self.text_list) - 1):
+            composite_words = self.text_list[i] + "," + self.text_list[i + 1]
             if composite_words in dict_pair_words_frequency:
                 dict_pair_words_frequency[composite_words] += 1
             else:

@@ -1235,9 +1235,9 @@
 												"$ref": "AAAAAAGBDuJ5Gic3Ng0="
 											},
 											"font": "Arial;13;0",
-											"left": 22.55908203125,
+											"left": 24.72998046875,
 											"top": 5,
-											"width": 110.02099609375,
+											"width": 120.95166015625,
 											"height": 13,
 											"text": "RegistrazioneCliente"
 										},
@@ -1250,7 +1250,7 @@
 											"font": "Arial;13;1",
 											"left": 5,
 											"top": 5,
-											"width": 12.55908203125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -1859,9 +1859,9 @@
 												"$ref": "AAAAAAGBDv9EyygbjPw="
 											},
 											"font": "Arial;13;0",
-											"left": 477,
+											"left": 475,
 											"top": 169,
-											"width": 171.970703125,
+											"width": 175.58251953125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1869,7 +1869,7 @@
 												"$ref": "AAAAAAGBDv9EyygcplM="
 											},
 											"edgePosition": 1,
-											"text": "2 : verificaClienteGiaPresente"
+											"text": "2 : isClienteRegistrato(cliente)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2063,118 +2063,6 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
-									"_id": "AAAAAAGBDwRq3yhjqaI=",
-									"_parent": {
-										"$ref": "AAAAAAGBDuJ5GSc2qbU="
-									},
-									"model": {
-										"$ref": "AAAAAAGBDwRq3yhidmc="
-									},
-									"subViews": [
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGBDwRq4Chk/YU=",
-											"_parent": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"model": {
-												"$ref": "AAAAAAGBDwRq3yhidmc="
-											},
-											"font": "Arial;13;0",
-											"left": 524,
-											"top": 324,
-											"width": 75.86083984375,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
-											"hostEdge": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"edgePosition": 1,
-											"text": "4 : CFCliente"
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGBDwRq4Chl8I8=",
-											"_parent": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"model": {
-												"$ref": "AAAAAAGBDwRq3yhidmc="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 561,
-											"top": 339,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25,
-											"hostEdge": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGBDwRq4ChmlDM=",
-											"_parent": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"model": {
-												"$ref": "AAAAAAGBDwRq3yhidmc="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 562,
-											"top": 304,
-											"height": 13,
-											"alpha": -1.5707963267948966,
-											"distance": 10,
-											"hostEdge": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "UMLActivationView",
-											"_id": "AAAAAAGBDwRq4Chn9eQ=",
-											"_parent": {
-												"$ref": "AAAAAAGBDwRq3yhjqaI="
-											},
-											"model": {
-												"$ref": "AAAAAAGBDwRq3yhidmc="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 256,
-											"top": 320,
-											"width": 14,
-											"height": 25
-										}
-									],
-									"font": "Arial;13;0",
-									"head": {
-										"$ref": "AAAAAAGBDugEdidu9+U="
-									},
-									"tail": {
-										"$ref": "AAAAAAGBDuhYzieOSJw="
-									},
-									"points": "855:320;269:320",
-									"nameLabel": {
-										"$ref": "AAAAAAGBDwRq4Chk/YU="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAGBDwRq4Chl8I8="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAGBDwRq4ChmlDM="
-									},
-									"activation": {
-										"$ref": "AAAAAAGBDwRq4Chn9eQ="
-									}
-								},
-								{
-									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAGBDwdEOCkEuTw=",
 									"_parent": {
 										"$ref": "AAAAAAGBDuJ5GSc2qbU="
@@ -2203,7 +2091,7 @@
 												"$ref": "AAAAAAGBDwdEOCkEuTw="
 											},
 											"edgePosition": 1,
-											"text": "5 : mandaMailConfermaRegistrazione"
+											"text": "4 : mandaMailConfermaRegistrazione"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2430,7 +2318,7 @@
 												"$ref": "AAAAAAGBDwnKfylGDz4="
 											},
 											"edgePosition": 1,
-											"text": "6 : getListaPrenotazioniPassate(CFCliente)"
+											"text": "5 : getListaPrenotazioniPassate(cliente)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2541,7 +2429,7 @@
 												"$ref": "AAAAAAGBDwxmdym1fWo="
 											},
 											"edgePosition": 1,
-											"text": "7 [ListaPrenotazioniPassate non vuota] : aggregaPrenotazioni(CFCliente, ListaPrenotazioniPassate)"
+											"text": "6 [ListaPrenotazioniPassate non vuota] : aggregaPrenotazioni(cliente, ListaPrenotazioniPassate)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2646,13 +2534,14 @@
 							"_parent": {
 								"$ref": "AAAAAAGBDuJ5GSc17+I="
 							},
-							"name": "verificaClienteGiaPresente",
+							"name": "isClienteRegistrato",
 							"source": {
 								"$ref": "AAAAAAGBDugEdidnLWM="
 							},
 							"target": {
 								"$ref": "AAAAAAGBDuhYzSeHxII="
-							}
+							},
+							"arguments": "cliente"
 						},
 						{
 							"_type": "UMLMessage",
@@ -2668,21 +2557,6 @@
 								"$ref": "AAAAAAGBDuhYzSeHxII="
 							},
 							"guard": "cliente non registrato"
-						},
-						{
-							"_type": "UMLMessage",
-							"_id": "AAAAAAGBDwRq3yhidmc=",
-							"_parent": {
-								"$ref": "AAAAAAGBDuJ5GSc17+I="
-							},
-							"name": "CFCliente",
-							"source": {
-								"$ref": "AAAAAAGBDuhYzSeHxII="
-							},
-							"target": {
-								"$ref": "AAAAAAGBDugEdidnLWM="
-							},
-							"messageSort": "reply"
 						},
 						{
 							"_type": "UMLMessage",
@@ -2711,7 +2585,7 @@
 							"target": {
 								"$ref": "AAAAAAGBDwkAWCkjzJg="
 							},
-							"arguments": "CFCliente"
+							"arguments": "cliente"
 						},
 						{
 							"_type": "UMLMessage",
@@ -2726,7 +2600,7 @@
 							"target": {
 								"$ref": "AAAAAAGBDuhYzSeHxII="
 							},
-							"arguments": "CFCliente, ListaPrenotazioniPassate",
+							"arguments": "cliente, ListaPrenotazioniPassate",
 							"guard": "ListaPrenotazioniPassate non vuota"
 						}
 					],
@@ -2923,9 +2797,9 @@
 												"$ref": "AAAAAAGBDxUo4Cnxijg="
 											},
 											"font": "Arial;13;0",
-											"left": 64.72998046875,
+											"left": 62.55908203125,
 											"top": 109,
-											"width": 153.47705078125,
+											"width": 139.61376953125,
 											"height": 13,
 											"text": "PrenotazioneMezzoOnline"
 										},
@@ -2938,7 +2812,7 @@
 											"font": "Arial;13;1",
 											"left": 45,
 											"top": 109,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -4726,9 +4600,9 @@
 												"$ref": "AAAAAAGBDzrQiSyPLa0="
 											},
 											"font": "Arial;13;0",
-											"left": 40.72998046875,
+											"left": 38.55908203125,
 											"top": 5,
-											"width": 125.2998046875,
+											"width": 112.185546875,
 											"height": 13,
 											"text": "DisdettaPrenotazione"
 										},
@@ -4741,7 +4615,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 5,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}

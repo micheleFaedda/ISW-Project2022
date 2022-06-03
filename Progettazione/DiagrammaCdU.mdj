@@ -606,6 +606,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
+											"left": -16,
 											"top": 16,
 											"height": 13
 										},
@@ -616,11 +617,11 @@
 												"$ref": "AAAAAAGBD+WoyKh9GS8="
 											},
 											"font": "Arial;13;1",
-											"left": 237,
+											"left": 229,
 											"top": 71,
 											"width": 1807,
 											"height": 13,
-											"text": "Sistema preontazione mezzi"
+											"text": "Sistema prenotazione mezzi"
 										},
 										{
 											"_type": "LabelView",
@@ -630,6 +631,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
+											"left": -16,
 											"top": 16,
 											"width": 80.9072265625,
 											"height": 13,
@@ -643,13 +645,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
+											"left": -16,
 											"top": 16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 232,
+									"left": 224,
 									"top": 64,
 									"width": 1817,
 									"height": 25,
@@ -668,7 +671,7 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 232,
+							"left": 224,
 							"top": 64,
 							"width": 1817,
 							"height": 1577,
@@ -13510,6 +13513,284 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGBE9l8wJGqFRs="
 							}
+						},
+						{
+							"_type": "UMLUseCaseView",
+							"_id": "AAAAAAGBKvjI8UK/qSg=",
+							"_parent": {
+								"$ref": "AAAAAAGBD+JuB6eRQfg="
+							},
+							"model": {
+								"$ref": "AAAAAAGBKvjI8UK9YGo="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULAcLk=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBKvjI8ULBLoY=",
+											"_parent": {
+												"$ref": "AAAAAAGBKvjI8ULAcLk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBKvjI8ULC88Q=",
+											"_parent": {
+												"$ref": "AAAAAAGBKvjI8ULAcLk="
+											},
+											"font": "Arial;13;1",
+											"left": 605,
+											"top": 1083.5,
+											"width": 144,
+											"height": 13,
+											"text": "Inserimento lista attesa"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBKvjI8ULDOR0=",
+											"_parent": {
+												"$ref": "AAAAAAGBKvjI8ULAcLk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 80.9072265625,
+											"height": 13,
+											"text": "(from Model1)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGBKvjI8ULEyk8=",
+											"_parent": {
+												"$ref": "AAAAAAGBKvjI8ULAcLk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 600,
+									"top": 1076.5,
+									"width": 154.498046875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGBKvjI8ULBLoY="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGBKvjI8ULC88Q="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGBKvjI8ULDOR0="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGBKvjI8ULEyk8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULFFls=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULG7aA=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULHa1c=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULIMrk=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLExtensionPointCompartmentView",
+									"_id": "AAAAAAGBKvjI8ULJmiU=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvjI8UK/qSg="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvjI8UK9YGo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 568,
+							"top": 1072,
+							"width": 218,
+							"height": 35,
+							"nameCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULAcLk="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULFFls="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULG7aA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULHa1c="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULIMrk="
+							},
+							"extensionPointCompartment": {
+								"$ref": "AAAAAAGBKvjI8ULJmiU="
+							}
+						},
+						{
+							"_type": "UMLExtendView",
+							"_id": "AAAAAAGBKvlIAk8tW4k=",
+							"_parent": {
+								"$ref": "AAAAAAGBD+JuB6eRQfg="
+							},
+							"model": {
+								"$ref": "AAAAAAGBKvlIAk8rS/E="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGBKvlIA08uVA8=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvlIAk8rS/E="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 528,
+									"top": 1071,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGBKvlIA08v76k=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvlIAk8rS/E="
+									},
+									"font": "Arial;13;0",
+									"left": 500,
+									"top": 1086,
+									"width": 53.49169921875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"edgePosition": 1,
+									"text": "«extend»"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGBKvlIA08wMLI=",
+									"_parent": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"model": {
+										"$ref": "AAAAAAGBKvlIAk8rS/E="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 533,
+									"top": 1042,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGBKvlIAk8tW4k="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGBEAOq52dLWmE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGBKvjI8UK/qSg="
+							},
+							"lineStyle": 1,
+							"points": "573:1071;489:1056",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGBKvlIA08uVA8="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGBKvlIA08v76k="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGBKvlIA08wMLI="
+							}
 						}
 					]
 				},
@@ -13791,7 +14072,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGBD+JuB6eQ+qc="
 					},
-					"name": "Sistema preontazione mezzi"
+					"name": "Sistema prenotazione mezzi"
 				},
 				{
 					"_type": "UMLActor",
@@ -14675,6 +14956,37 @@
 							},
 							"target": {
 								"$ref": "AAAAAAGBD+rsSam8NOc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAGBKvih9TnkgkM=",
+					"_parent": {
+						"$ref": "AAAAAAGBD+JuB6eQ+qc="
+					},
+					"name": "UseCaseSubject1"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGBKvjI8UK9YGo=",
+					"_parent": {
+						"$ref": "AAAAAAGBD+JuB6eQ+qc="
+					},
+					"name": "Inserimento lista attesa",
+					"ownedElements": [
+						{
+							"_type": "UMLExtend",
+							"_id": "AAAAAAGBKvlIAk8rS/E=",
+							"_parent": {
+								"$ref": "AAAAAAGBKvjI8UK9YGo="
+							},
+							"source": {
+								"$ref": "AAAAAAGBKvjI8UK9YGo="
+							},
+							"target": {
+								"$ref": "AAAAAAGBEAOq52dJ9Zs="
 							}
 						}
 					]

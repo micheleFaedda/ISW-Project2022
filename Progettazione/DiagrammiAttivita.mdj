@@ -3873,7 +3873,7 @@
 										"$ref": "AAAAAAGBFFoBT92IkPM="
 									},
 									"edgePosition": 1,
-									"text": " [se ha il motore non è termico]"
+									"text": " [se ha il motore termico]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -8822,7 +8822,7 @@
 					"target": {
 						"$ref": "AAAAAAGBFD0iCNvpm9Y="
 					},
-					"guard": "se ha il motore non è termico"
+					"guard": "se ha il motore termico"
 				},
 				{
 					"_type": "UMLControlFlow",

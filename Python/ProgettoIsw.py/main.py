@@ -72,7 +72,7 @@ if __name__ == '__main__':
     #unittest.main()
 
     text, stopwords, input_frequency = sys.argv[1:]
-    start_time = time.time()
+    #start_time = time.time()
 
     text_analyzer = TextAnalyzer(text, stopwords, input_frequency)
     text_analyzer.prepare_text_for_analysis_from_file()
@@ -81,4 +81,4 @@ if __name__ == '__main__':
     frequency_analysis_of_composite_words = text_analyzer.text_frequency_of_composite_words()
     text_analyzer.save_frequency_into_file('compositeOutput.txt', frequency_analysis_of_composite_words)
 
-    print((time.time() - start_time))
+   # print((time.time() - start_time))

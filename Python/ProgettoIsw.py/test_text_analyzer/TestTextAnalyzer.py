@@ -31,6 +31,7 @@ class TestTextAnalyzer(unittest.TestCase):
 
     def test_text_analyzer_return_correct_frequency_of_word(self):
         expected = {'word' : 1 , 'random' : 1 , 'beautiful' : 1}
+        self.text_analyzer.text_list = ['word', 'random',  'beautiful']
         actual = self.text_analyzer.text_frequency_of_words()
         self.assertEqual(expected, actual)
 

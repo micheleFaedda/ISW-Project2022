@@ -87,9 +87,9 @@
 												"$ref": "AAAAAAGBDs+eiCWP6TI="
 											},
 											"font": "Arial;13;0",
-											"left": 94.55908203125,
+											"left": 96.72998046875,
 											"top": 37,
-											"width": 85.48095703125,
+											"width": 89.88623046875,
 											"height": 13,
 											"text": "AggiungiMezzo"
 										},
@@ -102,7 +102,7 @@
 											"font": "Arial;13;1",
 											"left": 77,
 											"top": 37,
-											"width": 12.55908203125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -1365,13 +1365,13 @@
 											"left": 102,
 											"top": 105,
 											"width": 1,
-											"height": 640
+											"height": 664
 										}
 									],
 									"font": "Arial;13;0",
 									"top": 40,
 									"width": 203.578125,
-									"height": 705,
+									"height": 729,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDudxXydKDnQ="
@@ -1481,14 +1481,14 @@
 											"left": 263,
 											"top": 80,
 											"width": 1,
-											"height": 657
+											"height": 689
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 160,
 									"top": 40,
 									"width": 205.6435546875,
-									"height": 697,
+									"height": 729,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDugEdidpl5I="
 									},
@@ -1597,14 +1597,14 @@
 											"left": 862,
 											"top": 80,
 											"width": 1,
-											"height": 657
+											"height": 689
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 776,
 									"top": 40,
 									"width": 171.68359375,
-									"height": 697,
+									"height": 729,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDuhYzieJonU="
 									},
@@ -1713,14 +1713,14 @@
 											"left": 1013,
 											"top": 80,
 											"width": 1,
-											"height": 649
+											"height": 689
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 960,
 									"top": 40,
 									"width": 105.26171875,
-									"height": 689,
+									"height": 729,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDukrBiepLOc="
 									},
@@ -2273,14 +2273,14 @@
 											"left": 1150,
 											"top": 80,
 											"width": 1,
-											"height": 641
+											"height": 689
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1072,
 									"top": 40,
 									"width": 155.0654296875,
-									"height": 681,
+									"height": 729,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDwkAWCklsTw="
 									},
@@ -2797,9 +2797,9 @@
 												"$ref": "AAAAAAGBDxUo4Cnxijg="
 											},
 											"font": "Arial;13;0",
-											"left": 62.55908203125,
-											"top": 109,
-											"width": 139.61376953125,
+											"left": 64.72998046875,
+											"top": 21,
+											"width": 153.47705078125,
 											"height": 13,
 											"text": "PrenotazioneMezzoOnline"
 										},
@@ -2811,17 +2811,17 @@
 											},
 											"font": "Arial;13;1",
 											"left": 45,
-											"top": 109,
-											"width": 12.55908203125,
+											"top": 21,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 40,
-									"top": 104,
+									"top": 16,
 									"width": 1393,
-									"height": 953,
+									"height": 1041,
 									"nameLabel": {
 										"$ref": "AAAAAAGBDxUo4Cny800="
 									},
@@ -2933,14 +2933,14 @@
 											"left": 129,
 											"top": 105,
 											"width": 1,
-											"height": 856
+											"height": 952
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 40,
 									"top": 40,
 									"width": 178.30810546875,
-									"height": 921,
+									"height": 1017,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDxX0TSoG+48="
@@ -3053,14 +3053,14 @@
 											"left": 414,
 											"top": 80,
 											"width": 1,
-											"height": 881
+											"height": 977
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 336,
 									"top": 40,
 									"width": 155.0654296875,
-									"height": 921,
+									"height": 1017,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDxkojComFSw="
 									},
@@ -3283,14 +3283,14 @@
 											"left": 864,
 											"top": 80,
 											"width": 1,
-											"height": 873
+											"height": 977
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 808,
 									"top": 40,
 									"width": 111.72998046875,
-									"height": 913,
+									"height": 1017,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBDyTz6isUFgc="
 									},
@@ -3852,14 +3852,14 @@
 											"left": 1041,
 											"top": 80,
 											"width": 1,
-											"height": 873
+											"height": 977
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 944,
 									"top": 40,
 									"width": 194.0908203125,
-									"height": 913,
+									"height": 1017,
 									"nameCompartment": {
 										"$ref": "AAAAAAGBJSXfDpJ8UGA="
 									},
@@ -4600,9 +4600,9 @@
 												"$ref": "AAAAAAGBDzrQiSyPLa0="
 											},
 											"font": "Arial;13;0",
-											"left": 38.55908203125,
+											"left": 40.72998046875,
 											"top": 5,
-											"width": 112.185546875,
+											"width": 125.2998046875,
 											"height": 13,
 											"text": "DisdettaPrenotazione"
 										},
@@ -4615,7 +4615,7 @@
 											"font": "Arial;13;1",
 											"left": 21,
 											"top": 5,
-											"width": 12.55908203125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}

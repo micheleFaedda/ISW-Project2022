@@ -112,7 +112,7 @@
 											"left": 373,
 											"top": 239,
 											"width": 168.33349609375,
-											"height": 26,
+											"height": 13,
 											"text": "Il cliente seleziona il mezzo",
 											"wordWrap": true
 										},
@@ -148,7 +148,7 @@
 									"left": 368,
 									"top": 232,
 									"width": 178.33349609375,
-									"height": 38,
+									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBFBDti9XDNwI="
 									},
@@ -1225,7 +1225,7 @@
 											"left": 141,
 											"top": 935,
 											"width": 129.88427734375,
-											"height": 52,
+											"height": 39,
 											"text": "il cliente inserisce gli estremi della sua carta e manda il pagamento",
 											"wordWrap": true
 										},
@@ -1261,7 +1261,7 @@
 									"left": 136,
 									"top": 928,
 									"width": 139.88427734375,
-									"height": 64,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBFB8estfcOzc="
 									},
@@ -5000,17 +5000,17 @@
 										"$ref": "AAAAAAGBFGHKX96HsFU="
 									},
 									"font": "Arial;13;0",
-									"left": 248,
+									"left": 168,
 									"top": 1152,
-									"width": 137.6044921875,
+									"width": 209.142578125,
 									"height": 13,
-									"alpha": 1.9513024883900347,
-									"distance": 48.46648326421054,
+									"alpha": 3.086093455609051,
+									"distance": 18.027756377319946,
 									"hostEdge": {
 										"$ref": "AAAAAAGBFGHKX96IEdE="
 									},
 									"edgePosition": 1,
-									"text": " [se l'importo totale è 0 ]"
+									"text": " [se l'importo totale è maggiore di 0 ]"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -5210,7 +5210,7 @@
 											"left": 221,
 											"top": 1335,
 											"width": 95,
-											"height": 26,
+											"height": 39,
 											"text": "il sistema valida il pagamento",
 											"wordWrap": true
 										},
@@ -5246,7 +5246,7 @@
 									"left": 216,
 									"top": 1328,
 									"width": 105,
-									"height": 38,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBFGKP3d7bmZY="
 									},
@@ -5314,7 +5314,7 @@
 											"left": 213,
 											"top": 1439,
 											"width": 103,
-											"height": 26,
+											"height": 39,
 											"text": "il sistema registra il pagamento",
 											"wordWrap": true
 										},
@@ -5350,7 +5350,7 @@
 									"left": 208,
 									"top": 1432,
 									"width": 113,
-									"height": 38,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBFGLra979yeU="
 									},
@@ -6215,7 +6215,7 @@
 											"left": 301,
 											"top": 2159,
 											"width": 181.47802734375,
-											"height": 52,
+											"height": 65,
 											"text": "il sistema crea una prenotazione a nome del primo eventuale cliente in cima alla lista di attesa per l'utente in questione",
 											"wordWrap": true
 										},
@@ -6251,7 +6251,7 @@
 									"left": 296,
 									"top": 2152,
 									"width": 191.47802734375,
-									"height": 64,
+									"height": 77,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGBFGXI4OBC0Kg="
 									},
@@ -9223,7 +9223,7 @@
 					"target": {
 						"$ref": "AAAAAAGBFGApad5fr9g="
 					},
-					"guard": "se l'importo totale è 0 "
+					"guard": "se l'importo totale è maggiore di 0 "
 				},
 				{
 					"_type": "UMLControlFlow",

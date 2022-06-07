@@ -240,6 +240,29 @@
                                     <label class="custom-control-label grey-checkbox-label" for="NP_al_ricov">Emetti fattura</label>
                                 </div>
 
+                                <hr>
+                                <h5 class="text-center">Stato del mezzo</h5>
+
+                                <div class="row">
+                                    <div class="col-lg-6  mb-4">
+                                        <label for="data_ins">Km percorsi dall'utente</label>
+                                        <input value="45" type="number" name="data_ins"
+                                            id="data_ins" class="form-control no-green-input " required />
+                                    </div>
+                                    <div class="col-lg-6  mb-4">
+                                        <label for="data_rimoz">Litri di benzina mancanti</label>
+                                        <input  type="number" value="5"
+                                            name="data_rimoz" id="data_rimoz" class="form-control no-green-input " />
+                                        <div class="invalid-feedback">La data deve essere compresa tra la data di
+                                            ricovero in UTI e quella della dimissione</div>
+                                    </div>
+                                </div>
+
+                                <div class="custom-control custom-checkbox col-lg-3">
+                                    <input type="checkbox" id="NP_al_ricov" name="NP_al_ricov" class="custom-control-input">
+                                    <label class="custom-control-label grey-checkbox-label" for="NP_al_ricov">Non funzionante</label>
+                                </div>
+
                                 <div class="text-center mt-2">
 
                                     <button id="invia-dispositivo" type="submit" class="btn btn-primary mr-4">

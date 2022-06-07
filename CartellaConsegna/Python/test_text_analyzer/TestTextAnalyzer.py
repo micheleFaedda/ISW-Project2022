@@ -3,8 +3,8 @@ import unittest
 from main import TextAnalyzer
 
 class TestTextAnalyzer(unittest.TestCase):
-
-    text_analyzer = TextAnalyzer('test_output.txt', 'test_output.txt', 1)
+    def setUp(self):
+        self.text_analyzer = TextAnalyzer('test_text_analyzer/test_output.txt', 'test_text_analyzer/test_output.txt', 1)
 
     def test_text_analyzer_return_exception_file_not_found(self):
         self.assertRaises(FileNotFoundError, TextAnalyzer.list_of_words_from_file,self.text_analyzer, 'pippo.txt')
@@ -31,6 +31,7 @@ class TestTextAnalyzer(unittest.TestCase):
 
     def test_text_analyzer_return_correct_frequency_of_word(self):
         expected = {'word' : 1 , 'random' : 1 , 'beautiful' : 1}
+        self.text_analyzer.text_list = ['word', 'random',  'beautiful']
         actual = self.text_analyzer.text_frequency_of_words()
         self.assertEqual(expected, actual)
 

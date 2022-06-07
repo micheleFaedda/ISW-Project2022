@@ -59,8 +59,8 @@ class TestTextAnalyzer(unittest.TestCase):
         expected_words = ['beautiful,1\n', 'random,1\n', 'word,1\n']
         self.text_analyzer.text_list = ['word', 'random', 'beautiful']
         frequency = self.text_analyzer.text_frequency_of_words()
-        self.text_analyzer.save_frequency_into_file('test_output.txt', frequency)
-        with open('test_output.txt') as file:
+        self.text_analyzer.save_frequency_into_file('test_text_analyzer/test_output.txt', frequency)
+        with open('test_text_analyzer/test_output.txt') as file:
             actual_words = file.readlines()
 
         self.assertEqual(expected_words, actual_words)

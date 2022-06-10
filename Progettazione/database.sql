@@ -37,13 +37,12 @@ CREATE TABLE Mezzo(
 	caricaBatterie SMALLINT
 );
 
--- in tipo non metto 'cliente registrato' e 'cliente non registrato' perche si capisce dal
--- fatto se ha la password settata o meno
 CREATE TABLE Utente(
 	CF CHAR(16) PRIMARY KEY,
 	nome VARCHAR(16) NOT NULL,
 	cognome VARCHAR(16) NOT NULL,
 	tipo VARCHAR(24) NOT NULL CHECK (tipo IN ('amministratore', 'operatore', 'cliente')),
+	strutturaNoleggio CHAR(27) REFERENCES StrutturaNoleggio,
 	password VARCHAR(32),
 	mail VARCHAR(24),
 	telefono CHAR(10),
